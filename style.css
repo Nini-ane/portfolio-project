@@ -1,0 +1,23 @@
+.header {
+    border-bottom: 3px solid steelblue;
+}
+
+.frontpage {
+    margin: 80px 200px 0px 200px;
+    border-bottom: 3px solid steelblue;
+}
+
+@media .query {
+    
+}
+
+.portrait {
+    border-radius: 50%;
+    width:250px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: rgba(244, 169, 78, 0.691);
+    padding: 60px;
+}
