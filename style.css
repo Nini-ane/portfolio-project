@@ -1,10 +1,14 @@
 .header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subline {
     border-bottom: 3px solid steelblue;
 }
 
 .frontpage {
     margin: 80px 200px 0px 200px;
-    border-bottom: 3px solid steelblue;
+    border-bottom: 3px dotted steelblue;
 }
 
 @media .query {
@@ -15,9 +19,11 @@
     border-radius: 50%;
     width:250px;
     padding: 10px;
+    box-shadow: 2pt 6pt 2pt steelblue;
 }
 
 .footer {
     background-color: rgba(244, 169, 78, 0.691);
     padding: 60px;
+    font-family: 'Courier New', Courier, monospace;
 }
