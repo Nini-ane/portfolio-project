@@ -1,3 +1,7 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -26,4 +30,12 @@
     background-color: rgba(244, 169, 78, 0.691);
     padding: 60px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.footnote {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
