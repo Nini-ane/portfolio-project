@@ -2,18 +2,18 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .subline {
     border-bottom: 3px solid steelblue;
+    display: inline-block;
 }
 
 .frontpage {
     margin: 80px 200px 0px 200px;
     border-bottom: 3px dotted steelblue;
+    display: inline-block;
+    padding: 0 20px 0 10px;
 }
+
 
 @media .query {
     
@@ -35,7 +35,12 @@
 .footnote {
     font-size: 10px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     font-family: 'Courier New', Courier, monospace;
 
+}
+
+.work-screenshot {
+    border-radius: 50% 20% / 10% 40%;
 }
