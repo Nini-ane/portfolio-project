@@ -15,7 +15,7 @@
 }
 
 
-@media .query {
+@media  {
     
 }
 
@@ -43,6 +43,8 @@
 
 .work-screenshot {
     border-radius: 50% 20% / 10% 40%;
+    border: 1px solid steelblue;
+    padding: 0;
 }
 
 .portfolio {
