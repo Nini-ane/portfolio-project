@@ -19,13 +19,18 @@ a {
     color: black!important;
 }
 
-a:hover {
-color: steelblue!important;
-}
+.project-button {
+    background-color: steelblue;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
 
-button {
-    display: block;
-    margin: 0px auto;
+  .project-button:hover {
+    background-color: rgb(192, 225, 251);
+  }
+
+  a:hover {
+    color: rgb(26, 84, 132)!important;
   }
 
 
@@ -60,9 +65,18 @@ button {
 
     .work-screenshot {
         margin-top: 50px;
+        margin-bottom: 40px;
     }
 
-    .contact-medium {
+    .project-button {
+        display: block;
+    margin: 0px auto;
+    }
+
+    div .intro {
+        margin-top: 30px;
+        text-align: center;
+        line-height: 28px;
     }
   
 
@@ -70,10 +84,10 @@ button {
 }
 
 .portrait {
-    border-radius: 50%;
+    border: 1pt solid black;
+    border-radius: 10%;
     width:250px;
-    padding: 10px;
-    box-shadow: 2pt 6pt 2pt steelblue;
+    box-shadow: 13pt 13pt 1pt steelblue;
 }
 
 .footer {
@@ -94,6 +108,7 @@ button {
     border-radius: 50% 20% / 10% 40%;
     border: 1px solid steelblue;
     padding: 0;
+    box-shadow: 6pt 8pt 2pt steelblue;
 }
 
 .portfolio {
