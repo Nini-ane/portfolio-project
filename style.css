@@ -79,6 +79,10 @@ a {
     padding:0 10px 0 10px;
   }
 
+  .portfolio {
+    text-align: center;
+  }
+  
  .work-screenshot {
         margin-top: 50px;
         margin-bottom: 40px;
