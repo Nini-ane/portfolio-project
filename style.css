@@ -8,8 +8,17 @@
 }
 
 .frontpage {
-    margin: 80px 200px 0px 200px;
+    margin: 80px 200px 0px 170px;
     border-bottom: 3px dotted steelblue;
+    display: inline-block;
+    padding: 0 20px 0 10px;
+    font-size: 32pt;
+}
+
+.subtitle {
+    margin-left: 45%;
+    margin-top: 20px;
+    border-bottom: 3px solid steelblue;
     display: inline-block;
     padding: 0 20px 0 10px;
 }
@@ -35,7 +44,7 @@ a {
 
 
 @media  (max-width:900px) {
-    h1, .contact-links, .portfolio-section {
+    h1, .portfolio-section {
         text-align: center;
     }
 
@@ -44,6 +53,13 @@ a {
         margin: 0px auto;
         display: block;
         margin-top: 100px;
+    }
+
+    .subtitle {
+        border-bottom: none;
+        margin: 0px auto;
+        display: block; 
+        text-align: center;
     }
 
   .subline {
@@ -63,23 +79,27 @@ a {
     padding:0 10px 0 10px;
   }
 
-    .work-screenshot {
+ .work-screenshot {
         margin-top: 50px;
         margin-bottom: 40px;
+        width: 70%;
     }
 
-    .project-button {
-        display: block;
+ .project-button {
+    display: block;
     margin: 0px auto;
     }
 
-    div .intro {
+ div .intro {
         margin-top: 30px;
         text-align: center;
         line-height: 28px;
     }
-  
 
+.contact-links {
+        flex-direction: row;
+        justify-content: center;
+    }
   
 }
 
@@ -104,6 +124,10 @@ a {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.git-link {
+    font-weight: bold;
+}
+
 .work-screenshot {
     border-radius: 50% 20% / 10% 40%;
     border: 1px solid steelblue;
@@ -115,6 +139,7 @@ a {
     margin-top: 120px;
     margin-bottom: 40px;
     font-size: 44pt;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
 }
 
 .contact-section {
