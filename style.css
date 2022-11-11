@@ -80,9 +80,11 @@ a {
   }
 
   .portfolio {
+    display: block;
+    margin: 0 auto;
     text-align: center;
   }
-  
+
  .work-screenshot {
         margin-top: 50px;
         margin-bottom: 40px;
@@ -90,8 +92,7 @@ a {
     }
 
  .project-button {
-    display: block;
-    margin: 0px auto;
+  margin-left: 0px;
     }
 
  div .intro {
